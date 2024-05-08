@@ -1,0 +1,48 @@
+@font-face{
+    font-family: 'Poppins';
+    src: url('Poppins/Poppins-MediumItalic.ttf');
+ }
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 5px;
+    border: 1px solid #000;
+  }
+  
+  input[type="number"] {
+    width: 50px;
+    padding: 5px;
+  }
+  
+  input[type="button"] {
+    padding: 5px;
+    margin-right: 5px;
+  }
+a:hover{
+    color: green;
+    cursor: pointer;
+    transform: scale(2,2);
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+nav{
+    background-color: blue;
+    display: flex;
+    padding: 12px;
+    justify-content: space-evenly; 
+}
